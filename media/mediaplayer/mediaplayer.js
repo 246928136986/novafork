@@ -223,7 +223,8 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
                 const tvSlug = media.name.replace(/\s+/g, '-');
                 return `https://embed.anicdn.top/v/${tvSlug}-dub/${episodeId}.html`;
             case 'moviesapi':
-                return `https://moviesapi.club/tv/${mediaId}/${seasonId}/${episodeId}`;
+            
+                return `https://vidify.top/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'vidlink':
                 return `https://vidlink.pro/tv/${mediaId}/${seasonId}/${episodeId}?primaryColor=${primaryColor}&secondaryColor=${secondaryColor}&iconColor=${iconColor}&nextbutton=true&autoplay=false`;
             case 'vidlinkdub':
