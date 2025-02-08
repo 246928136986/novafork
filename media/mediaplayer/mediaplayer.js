@@ -109,7 +109,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case '2embed':
             return `https://www.2embed.cc/embed/${mediaId}`;
         case 'nontonGo':
-            return `https://www.NontonGo.win/embed/movie/${mediaId}`;
+            return `https://www.primewire.tf/embed/movie?tmdb=${mediaId}`;
         case 'AdminHiHi':
             const movieSlug = mediaId.replace(/\s+/g, '-');
             return `https://embed.anicdn.top/v/${movieSlug}-dub/1.html`;
