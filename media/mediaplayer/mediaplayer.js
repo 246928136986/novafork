@@ -124,7 +124,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'vidbinge':
             return `https://vidsrc.cc/v2/embed/movie/${mediaId}?autoPlay=true`;
         case 'moviesapi':
-            return `https://moviesapi.club/movie/${mediaId}`;
+            return `https://vidify.top/embed/movie/${mediaId}`;
         case 'moviee':
             return `https://moviee.tv/embed/movie/${mediaId}`;
         case 'multiembed':
