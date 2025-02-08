@@ -126,7 +126,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'moviesapi':
             return `https://vidify.top/embed/movie/${mediaId}`;
         case 'moviee':
-            return `https://vidsrc.vip/embed/movie/${mediaId}`;
+            return `https://moviekex.online/embed/movie/${mediaId}`;
         case 'multiembed':
             return `https://multiembed.mov/?video_id=${mediaId}&tmdb=1`;
         case 'embedsu':
