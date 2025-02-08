@@ -130,7 +130,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'multiembed':
             return `https://multiembed.mov/?video_id=${mediaId}&tmdb=1`;
         case 'embedsu':
-            return `https://embed.su/embed/movie/${mediaId}`;
+            return `https://vidsrc.su/embed/movie/${mediaId}`;
         case 'multiembedvip':
             return `https://multiembed.mov/directstream.php?video_id=${mediaId}&tmdb=1`;
         case 'vidsrcicu':
