@@ -613,10 +613,6 @@ button:active {
     box-shadow: 0 0 18px rgba(123, 31, 162, 0.5);
 }
 
-.neon-text {
-    text-shadow: 0 0 6px rgba(123, 31, 162, 0.7), 0 0 12px rgba(123, 31, 162, 0.5);
-}
-
 
 @keyframes slideInRight {
     0% {
