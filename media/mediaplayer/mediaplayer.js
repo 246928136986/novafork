@@ -202,7 +202,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'flickyanime':
                     return `https://flicky.host/embed/anime/?id=${mediaId}/${seasonId}/${episodeId} `;
             case 'vidsrcxyz':
-                return `https://vidsrc.xyz/embed/tv/${mediaId}?season=${seasonId}&episode=${episodeId}`;
+                return `https://api.hexa.watch/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'embedsoap':
                 return `https://www.embedsoap.com/embed/tv/?id=${mediaId}&s=${seasonId}&e=${episodeId}`;
             case 'autoembed':
