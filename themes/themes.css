@@ -716,7 +716,7 @@ dev notice this below controls the info player design
 }
 
 .btn-gradient {
-    background: linear-gradient(90deg, #d53369, #000000);
+    background: linear-gradient(90deg, #4b0082, #000000);
     border-radius: 6px;
     padding: 0.5rem 1rem;
     transition: transform 0.3s, background 0.3s, box-shadow 0.3s ease;
