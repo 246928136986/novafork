@@ -99,7 +99,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'embedsoap':
             return `https://www.embedsoap.com/embed/movie/?id=${mediaId}`;
         case 'autoembed':
-            return `https://player.autoembed.cc/embed/movie/${mediaId}`;
+            return `https://autoembed.cc/embed/mlplayer.php?id=${mediaId}&lang=english`;
         case 'smashystream':
             return `https://player.smashy.stream/movie/${mediaId}`;
         case 'anime':
