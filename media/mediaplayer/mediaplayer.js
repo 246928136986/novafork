@@ -93,7 +93,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             }
 
         case 'vidsrcxyz':
-            return `https://vidsrc.xyz/embed/movie/${mediaId}`;
+            return `https://api.hexa.watch/movie/${mediaId}`;
         case 'flicky':
                 return `https://flicky.host/embed/movie/?id=${mediaId} `;
         case 'embedsoap':
