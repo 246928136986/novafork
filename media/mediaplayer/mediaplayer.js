@@ -244,7 +244,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'vidsrcicu':
                 return `https://vidsrc.icu/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'embedsu':
-                return `https://embed.su/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+                return `https://vidsrc.su/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'cinescrape':
                 try {
                     const randomDelay = Math.floor(Math.random() * (5000 - 2000 + 1)) + 2000;
