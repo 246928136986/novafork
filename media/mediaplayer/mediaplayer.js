@@ -242,7 +242,8 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'multiembedvip':
                 return `https://multiembed.mov/directstream.php?video_id=${mediaId}&tmdb=1&s=${seasonId}&e=${episodeId}`;
             case 'vidsrcicu':
-                return `https://vidsrc.icu/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+                
+                return `https://moviesapi.club/tv/${mediaId}-${seasonId}-${episodeId}`;
             case 'embedsu':
                 return `https://vidsrc.su/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'cinescrape':
