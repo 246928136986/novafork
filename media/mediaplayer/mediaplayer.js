@@ -233,7 +233,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'vidsrc.rip':
                 return `https://vidsrc.rip/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'vidbinge':
-                return `https://vidbinge.dev/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+                return `https://vidsrc.cc/v2/embed/tv/${mediaId}/${seasonId}/${episodeId}?autoPlay=true&autoNext=true`;
             case 'moviee':
                 return `https://moviee.tv/embed/tv/${mediaId}?seasion=${seasonId}&episode=${episodeId}`;
             case 'multiembed':
