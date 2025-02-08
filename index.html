@@ -87,7 +87,7 @@
 
         <!-- Search Section -->
         <div class="relative flex-1 mb-6 sm:mb-8">
-            <input type="text" id="searchInput" placeholder="The Simpsons is nice!"
+            <input type="text" id="searchInput" placeholder="Search for any movies or shows..."
                    class="w-full p-2 sm:p-4 pl-10 sm:pl-12 glassmorphism text-white placeholder-gray-400 rounded-full focus:ring-1 sm:focus:ring-2 focus:ring-purple-500 focus:outline-none transition duration-300 ease-in-out text-xs sm:text-base">
             <i class="fas fa-search absolute left-3 sm:left-4 top-1/2 transform -translate-y-1/2 text-gray-400 text-xs sm:text-base"></i>
             <button id="searchButton"
@@ -96,68 +96,6 @@
                  class="absolute w-full glassmorphism text-white rounded-lg mt-1 hidden z-10 max-h-96 overflow-y-auto hover:cursor-pointer transition duration-300 ease-in-out"></div>
         </div>
 
-
-        <!-- Filter Settings -->
-        <div class="mb-12">
-            <h2 class="text-xs sm:text-sm font-semibold text-white mb-3 sm:mb-4">Filter Settings</h2>
-            <div class="flex flex-wrap items-center gap-2 sm:gap-4 mb-3 sm:mb-4">
-                <!-- Category Select -->
-                <select id="categorySelect"
-                        class="p-2 sm:p-3 glassmorphism rounded-full text-white text-xs sm:text-sm focus:ring-1 sm:focus:ring-2 focus:ring-purple-500 focus:outline-none transition duration-300 ease-in-out custom-select">
-                </select>
-                <!-- Type Select -->
-                <select id="typeSelect"
-                        class="p-2 sm:p-3 glassmorphism rounded-full text-white text-xs sm:text-sm focus:ring-1 sm:focus:ring-2 focus:ring-purple-500 focus:outline-none transition duration-300 ease-in-out custom-select">
-                </select>
-                <!-- Toggle Button for Additional Filters -->
-                <button id="toggleFiltersButton"
-                        class="p-2 sm:p-3 glassmorphism rounded-full text-white text-xs sm:text-sm flex items-center focus:ring-1 sm:focus:ring-2 focus:ring-purple-500 focus:outline-none transition duration-300 ease-in-out">
-            <span id="toggleIcon" class="transform transition-transform duration-300 ease-in-out mr-1 sm:mr-2">
-                <!-- Down Arrow Icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24"
-                     stroke="currentColor">
-                    <path id="toggleIconPath" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M19 9l-7 7-7-7"/>
-                </svg>
-            </span>
-                    Advanced Filters
-                </button>
-            </div>
-
-            <!-- Collapsible Section for Additional Filters -->
-            <div id="additionalFilters" class="mt-3 sm:mt-4 hidden">
-                <div class="flex flex-wrap items-center gap-2 sm:gap-4">
-                    <!-- Actor Search Input -->
-                    <input id="actorSearchInput" type="text" placeholder="Search by Actor"
-                           class="p-2 sm:p-3 glassmorphism rounded-full text-white text-xs sm:text-sm w-full sm:w-64 focus:ring-1 sm:focus:ring-2 focus:ring-purple-500 focus:outline-none transition duration-300 ease-in-out"/>
-
-                    <!-- Company Search Input and Suggestions -->
-                    <div class="relative w-full sm:w-auto">
-                        <!-- Company Search Input -->
-                        <input id="companySearchInput" type="text" placeholder="Search by Company"
-                               class="p-2 sm:p-3 glassmorphism rounded-full text-white text-xs sm:text-sm w-full sm:w-64 focus:ring-1 sm:focus:ring-2 focus:ring-purple-500 focus:outline-none transition duration-300 ease-in-out"/>
-                        <div id="companySuggestions"
-                             class="absolute z-10 w-full sm:w-64 bg-gray-800 text-white rounded-md shadow-lg overflow-hidden hidden">
-                        </div>
-                    </div>
-
-                    <div class="relative w-full sm:w-auto">
-                        <input id="collectionSearchInput" type="text" placeholder="Search by Collection"
-                               class="p-2 sm:p-3 glassmorphism rounded-full text-white text-xs sm:text-sm w-full sm:w-64 focus:ring-1 sm:focus:ring-2 focus:ring-purple-500 focus:outline-none transition duration-300 ease-in-out"/>
-                        <div id="collectionSuggestions"
-                             class="absolute z-10 w-full sm:w-64 bg-gray-800 text-white rounded-md shadow-lg overflow-hidden hidden">
-                        </div>
-                    </div>
-
-                    <div class="relative w-full sm:w-auto">
-                        <input id="franchiseSearchInput" type="text" placeholder="Search by Franchise"
-                               class="p-2 sm:p-3 glassmorphism rounded-full text-white text-xs sm:text-sm w-full sm:w-64 focus:ring-1 sm:focus:ring-2 focus:ring-purple-500 focus:outline-none transition duration-300 ease-in-out"/>
-                        <div id="franchiseSuggestions"
-                             class="absolute z-10 w-full sm:w-64 bg-gray-800 text-white rounded-md shadow-lg overflow-hidden hidden">
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
 
@@ -174,7 +112,7 @@
 
             <section class="mb-12 mt-16">
                 <div class="flex flex-col sm:flex-row justify-between items-center mb-4">
-                    <h2 class="text-lg sm:text-2xl font-bold text-white">Trending Media</h2>
+                    <h2 class="text-lg sm:text-2xl font-bold text-white">Trending Shows/Movies</h2>
                     <button id="togglePopularMedia"
                             class="glassmorphism text-white font-bold py-2 px-4 sm:px-6 rounded-full hover:bg-purple-700 transition duration-300 ease-in-out text-sm sm:text-lg">
                         Hide Trending Media
