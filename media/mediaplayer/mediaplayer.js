@@ -212,7 +212,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'anime':
                 return `https://anime.autoembed.cc/embed/${media.name.replace(/\s+/g, '-').toLowerCase()}-episode-${episodeId}`;
             case 'nontonGo':
-                return `https://www.NontonGo.win/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+                return `https://www.primewire.tf/embed/tv?tmdb=${mediaId}&season=${seasonId}&episode=${episodeId}`;
             case 'nontonGoAlt':
                 return `https://www.NontonGo.win/embed/tv/?id=${mediaId}&s=${seasonId}&e=${episodeId}`;
             case '2animesub':
