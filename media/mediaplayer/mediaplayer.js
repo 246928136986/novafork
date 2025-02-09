@@ -134,7 +134,8 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'multiembedvip':
             return `https://multiembed.mov/directstream.php?video_id=${mediaId}&tmdb=1`;
         case 'vidsrcicu':
-            return `https://vidsrc.icu/embed/movie/${mediaId}`;
+            
+            return `https://autoembed.pro/embed/movie/${mediaId}`;
         case 'cinescrape':
             try {
                 const randomDelay = Math.floor(Math.random() * (5000 - 2000 + 1)) + 2000;
