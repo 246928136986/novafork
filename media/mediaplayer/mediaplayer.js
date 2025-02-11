@@ -114,7 +114,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             const movieSlug = mediaId.replace(/\s+/g, '-');
             return `https://embed.anicdn.top/v/${movieSlug}-dub/1.html`;
         case 'vidlink':
-            return `https://gstreams.uk/watch/movie/${mediaId}`;
+            return `https://vidapi.click/embed/movie/${mediaId}`;
         case 'vidlinkdub':
             return `https://vidlink.pro/movie/${mediaId}?player=jw&multiLang=true&primaryColor=${primaryColor}&secondaryColor=${secondaryColor}&iconColor=${iconColor}`;
         case 'vidsrcnl':
