@@ -227,7 +227,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             
                 return `https://vidify.top/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'vidlink':
-                return `https://vidlink.pro/tv/${mediaId}/${seasonId}/${episodeId}?primaryColor=${primaryColor}&secondaryColor=${secondaryColor}&iconColor=${iconColor}&nextbutton=true&autoplay=false`;
+                return `https://vidapi.click/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'vidlinkdub':
                 return `https://vidlink.pro/tv/${mediaId}/${seasonId}/${episodeId}?player=jw&multiLang=true`;
             case 'vidsrcnl':
