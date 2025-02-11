@@ -95,7 +95,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'vidsrcxyz':
             return `https://api.hexa.watch/movie/${mediaId}`;
         case 'flicky':
-                return `https://flicky.host/embed/movie/?id=${mediaId} `;
+                return `https://embed.wplay.me/e1/movie/${mediaId} `;
         case 'embedsoap':
             return `https://www.embedsoap.com/embed/movie/?id=${mediaId}`;
         case 'autoembed':
