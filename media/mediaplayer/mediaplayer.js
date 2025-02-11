@@ -118,7 +118,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'vidlinkdub':
             return `https://vidlink.pro/movie/${mediaId}?player=jw&multiLang=true&primaryColor=${primaryColor}&secondaryColor=${secondaryColor}&iconColor=${iconColor}`;
         case 'vidsrcnl':
-            return `https://vidsrc.vip/stellar.php?id=${mediaId}`;
+            return `https://flixon.ovh/${mediaId}`;
         case 'vidsrc.rip':
             return `https://vidsrc.rip/embed/movie/${mediaId}`;
         case 'vidbinge':
