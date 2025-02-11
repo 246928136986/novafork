@@ -199,7 +199,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'vidsrcpro':
                 return `https://vidsrc.pro/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'flicky':
-                return `https://flicky.host/embed/tv/?id=${mediaId}/${seasonId}/${episodeId} `;
+                return `https://embed.wplay.me/e1/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'flickyanime':
                     return `https://flicky.host/embed/anime/?id=${mediaId}/${seasonId}/${episodeId} `;
             case 'vidsrcxyz':
