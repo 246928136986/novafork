@@ -231,7 +231,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'vidlinkdub':
                 return `https://vidlink.pro/tv/${mediaId}/${seasonId}/${episodeId}?player=jw&multiLang=true`;
             case 'vidsrcnl':
-                return `https://player.vidsrc.nl/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+                return `https://play2.123embed.net/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'vidsrc.rip':
                 return `https://vidsrc.rip/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'vidbinge':
