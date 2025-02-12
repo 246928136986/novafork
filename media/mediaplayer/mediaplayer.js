@@ -93,7 +93,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             }
 
         case 'vidsrcxyz':
-            return `https://api.hexa.watch/movie/${mediaId}`;
+            return `https://rivestream.live/embed/torrent?type=movie&id=${mediaId}`;
         case 'flicky':
                 return `https://embed.wplay.me/e1/movie/${mediaId} `;
         case 'embedsoap':
@@ -203,7 +203,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'flickyanime':
                     return `https://flicky.host/embed/anime/?id=${mediaId}/${seasonId}/${episodeId} `;
             case 'vidsrcxyz':
-                return `https://api.hexa.watch/tv/${mediaId}/${seasonId}/${episodeId}`;
+                return `https://rivestream.live/embed/torrent?type=tv&id=${mediaId}&season=${seasonId}&episode=${episodeId}`;
             case 'embedsoap':
                 return `https://www.embedsoap.com/embed/tv/?id=${mediaId}&s=${seasonId}&e=${episodeId}`;
             case 'autoembed':
