@@ -116,35 +116,6 @@
         <p class="text-gray-400"><i class="fas fa-tags mr-2"></i>Genres: <span class="font-semibold text-gray-200">{{genres}}</span></p>
       </div>
 
-      <!-- Ratings and Popularity -->
-      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between border-t border-gray-700 pt-4 space-y-4 sm:space-y-0">
-        <div id="ratings" class="text-gray-300">{{ratings}}</div>
-        <div id="popularity" class="text-gray-300">{{popularity}}</div>
-      </div>
-
-      <!-- Budget and Revenue -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm border-t border-gray-700 pt-4">
-        <p class="text-gray-400"><i class="fas fa-money-bill-wave mr-2"></i>Budget: <span class="font-semibold text-gray-200">{{budget}}</span></p>
-        <p class="text-gray-400"><i class="fas fa-chart-line mr-2"></i>Revenue: <span class="font-semibold text-gray-200">{{revenue}}</span></p>
-      </div>
-
-      <!-- Cast Section -->
-      <div class="border-t border-gray-700 pt-4">
-        <h3 class="text-lg sm:text-xl font-semibold text-white mb-4"><i class="fas fa-users mr-2"></i>Primary Cast</h3>
-        <div id="castList" class="flex overflow-x-auto pb-4 space-x-4 custom-scrollbar">
-          {{cast_list}}
-        </div>
-      </div>
-
-      <!-- Production Companies -->
-      <div class="border-t border-gray-700 pt-4">
-        <h3 class="text-lg sm:text-xl font-semibold text-white mb-4"><i class="fas fa-building mr-2"></i>Production Companies</h3>
-        <div id="productionCompaniesList" class="flex overflow-x-auto pb-4 space-x-4 custom-scrollbar">
-          {{production_companies}}
-        </div>
-      </div>
-
-
       <!-- Video Player -->
       <div id="videoPlayer" class="w-full rounded-2xl overflow-hidden hidden relative bg-black mt-6 shadow-xl">
         <div class="absolute inset-0 bg-cover bg-center rounded-2xl high-quality-bg opacity-50 blur-sm"
