@@ -715,7 +715,7 @@ dev notice this below controls the info player design
 }
 
 .btn-gradient {
-    background: linear-gradient(90deg, #4b0082, #000000);
+    background: linear-gradient(90deg, #d53369, #daae51);
     border-radius: 6px;
     padding: 0.5rem 1rem;
     transition: transform 0.3s, background 0.3s, box-shadow 0.3s ease;
@@ -723,7 +723,7 @@ dev notice this below controls the info player design
 }
 .btn-gradient:hover {
     transform: scale(1.08);
-    background: linear-gradient(90deg, #6a0dad, #1a1a1a);
+    background: linear-gradient(90deg, #d53369, #daae51);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
