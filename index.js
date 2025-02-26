@@ -818,17 +818,12 @@ $(document).ready(async function () {
              ${displayType ? `<div class="release-type">${displayType}</div>` : ''}
     <div class="media-content">
         <h3 class="media-title">${media.title || media.name}</h3>
-        <p class="media-type">
-            ${mediaType === 'movie' ? '<i class="fas fa-film" title="Movie"></i> Movie' :
-                mediaType === 'tv' ? '<i class="fas fa-tv" title="TV Show"></i> TV Show' :
-                    '<i class="fas fa-pencil-alt" title="Animation"></i> Animation'}
-        </p>
+
         <div class="media-details">
             <div class="media-rating">
                 <span class="rating-stars">${ratingStars}</span>
                 <span>${media.vote_average.toFixed(1)}/10</span>
             </div>
-            <p><i class="fas fa-calendar-alt"></i> Release Date: ${formattedDate}</p>
             ${certification ? `<p><i class="fas fa-certificate"></i> Certification: ${certification}</p>` : ''}
         </div>
     </div>
