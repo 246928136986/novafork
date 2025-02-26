@@ -49,7 +49,6 @@ label:hover {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 
@@ -85,7 +84,6 @@ label:hover {
 
 .custom-select:focus, select:focus {
     border-color: #a855f7;
-    box-shadow: 0 4px 6px rgba(168, 85, 247, 0.4);
     outline: none;
 }
 
@@ -111,7 +109,6 @@ button {
 
 button:hover {
     background-color: #7733cd;
-    box-shadow: 0 6px 12px rgba(48, 38, 38, 0.91), 0 0 15px rgba(194, 99, 228, 0.4);
     opacity: 0.9;
     transform: translateY(-2px);
 }
