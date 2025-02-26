@@ -824,7 +824,6 @@ $(document).ready(async function () {
                     '<i class="fas fa-pencil-alt" title="Animation"></i> Animation'}
         </p>
         <div class="media-details">
-            <p><i class="fas fa-theater-masks"></i> Genres: ${genreNames}</p>
             <div class="media-rating">
                 <span class="rating-stars">${ratingStars}</span>
                 <span>${media.vote_average.toFixed(1)}/10</span>
