@@ -380,7 +380,6 @@ button:active {
 .hover\:scale-105:hover { transform: scale(1.05); }
 .focus\:outline-none:focus { outline: none; }
 .focus\:ring-2:focus { box-shadow: 0 0 0 3px rgba(156, 39, 176, 0.6); }
-.glow { box-shadow: 0 0 15px rgba(123, 31, 162, 0.5); }
 
 /* Responsive Design */
 @media (max-width: 768px) {
