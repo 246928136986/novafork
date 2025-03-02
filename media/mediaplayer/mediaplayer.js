@@ -453,7 +453,7 @@ async function displaySelectedMedia(media, mediaType) {
         return;
     } else {
         $mediaSection.removeClass('hidden');
-        document.getElementById('selectedMediaSection').scrollIntoView({
+        document.getElementById('searchInput').scrollIntoView({
             behavior: 'smooth',
             block: 'start'
         });
