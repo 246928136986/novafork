@@ -117,7 +117,7 @@ button:active {
 }
 /* Containers and Cards */
 #selectedMovie, #welcomeBanner, #welcomeBannerAbout, .media-card, .glassmorphism {
-    background: rgba(20, 20, 30, 0.85);
+    background: rgba(0, 0, 0, 0.85);
     border-radius: 0.75rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7), 0 4px 8px rgba(0, 0, 0, 0.96);
 }
