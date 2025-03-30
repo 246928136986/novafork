@@ -97,7 +97,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'flicky':
                 return `https://embed.wplay.me/e1/movie/${mediaId} `;
         case 'embedsoap':
-            return `https://vidfast.pro/movie/${mediaId}`;
+            return `https://vidfast.pro/movie/${mediaId}?autoplay=true`;
         case 'autoembed':
             return `https://autoembed.cc/embed/mlplayer.php?id=${mediaId}&lang=english`;
         case 'smashystream':
@@ -205,9 +205,9 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'vidsrcxyz':
                 return `https://rivestream.live/embed/torrent?type=tv&id=${mediaId}&season=${seasonId}&episode=${episodeId}`;
             case 'embedsoap':
-                return `https://www.embedsoap.com/embed/tv/?id=${mediaId}&s=${seasonId}&e=${episodeId}`;
+                return `https://vidfast.pro/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'autoembed':
-                return `https://player.autoembed.cc/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+                return `https://player.autoembed.cc/embed/tv/${mediaId}/${seasonId}/${episodeId}?autoplay=true`;
             case 'smashystream':
                 return `https://player.smashy.stream/tv/${mediaId}?s=${seasonId}&e=${episodeId}`;
             case 'anime':
