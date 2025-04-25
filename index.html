@@ -17,7 +17,6 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
 
     <!-- Versioning added to normalize.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?v=1.16">
@@ -34,9 +33,7 @@
     <link rel="stylesheet" href="themes/themes.css">
 
     <!-- jQuery with versioning -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js?v=1.16"
-            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <style>
         button {
             background: -webkit-linear-gradient(180deg, #558931, #afd53e);
@@ -117,32 +114,7 @@
 </head>
 
 <body class="font-poppins text-gray-100" style="background-color: #000000;">
-<script async data-cfasync="false">
-    (function() {
-        const url = new URL(window.location.href);
-        const clickID = url.searchParams.get("click_id");
-        const sourceID = url.searchParams.get("source_id");
 
-        const s = document.createElement("script");
-        s.dataset.cfasync = "false";
-        s.src = "https://push-sdk.com/f/sdk.js?z=1256769";
-        s.onload = (opts) => {
-            opts.zoneID = 1256769;
-            opts.extClickID = clickID;
-            opts.subID1 = sourceID;
-            opts.actions.onPermissionGranted = () => {};
-            opts.actions.onPermissionDenied = () => {};
-            opts.actions.onAlreadySubscribed = () => {};
-            opts.actions.onError = () => {};
-        };
-        document.head.appendChild(s);
-    })()
-</script>
-<script id="hydro_config" type="text/javascript">
-    window.Hydro_tagId = "778ee986-fd55-4f4b-987b-d563de42cd14";
-</script>
-<script id="hydro_script" src="https://track.hydro.online/"></script>
-<script async type="text/javascript" src="https://s0-greate.net/p/1256764"></script>
 <main class="min-h-screen py-8 px-4 sm:px-6 lg:px-8">
     <div class="container mx-auto">
         <!-- Header Section -->
