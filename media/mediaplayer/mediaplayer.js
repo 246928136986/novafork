@@ -97,7 +97,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'flicky':
                 return `https://embed.wplay.me/e1/movie/${mediaId} `;
         case 'embedsoap':
-            return `https://vidora.su/movie/{mediaId}`;
+            return `https://vidora.su/movie/${mediaId}`;
         case 'autoembed':
             return `https://autoembed.cc/embed/mlplayer.php?id=${mediaId}&lang=english`;
         case 'smashystream':
