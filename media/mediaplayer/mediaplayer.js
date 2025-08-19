@@ -189,8 +189,8 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         const iconColor = '#ffffff';
     
         switch (provider) {
-            case 'vidsrc':
-                return `https://vidsrc.cc/v2/embed/tv/${mediaId}/${seasonId}/${episodeId}?autoPlay=true&autoNext=true`;
+            case 'srv1':
+                return `https://vidify.top/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'vidsrc':
                 return `https://vidsrc.cc/v2/embed/tv/${mediaId}/${seasonId}/${episodeId}?autoPlay=true&autoNext=true`;  
             case 'vidsrcpro':
