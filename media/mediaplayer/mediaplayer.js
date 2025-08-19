@@ -93,7 +93,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             }
 
         case 'vidsrcxyz':
-            return `https://rivestream.live/embed/torrent?type=movie&id=${mediaId}`;
+            return `https://vidlink.pro/tv/${mediaId}?primaryColor=558931&secondaryColor=558931&iconColor=afd53e&icons=default&player=default&title=true&poster=true&autoplay=true&nextbutton=true`;
         case 'flicky':
                 return `https://embed.wplay.me/e1/movie/${mediaId} `;
         case 'embedsoap':
