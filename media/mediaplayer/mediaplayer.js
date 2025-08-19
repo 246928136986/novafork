@@ -93,7 +93,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             }
 
         case 'srv1':
-            return `https://vidlink.pro/movie/${mediaId}?primaryColor=558931&secondaryColor=558931&iconColor=afd53e&icons=default&player=default&title=true&poster=true&autoplay=true&nextbutton=true`;
+            return `https://vidify.top/embed/movie/${mediaId}`;
         case 'srv2':
                 return `https://embed.wplay.me/e1/movie/${mediaId} `;
         case 'srv3':
