@@ -97,7 +97,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'srv2':
                 return `https://moviesapi.club/movie/${mediaId} `;
         case 'srv3':
-            return `https://vidora.su/movie/${mediaId}`;
+            return `https://player.autoembed.cc/embed/movie/${mediaId}`;
         case 'srv4':
             return `https://autoembed.cc/embed/mlplayer.php?id=${mediaId}&lang=english`;
         case 'srv5':
