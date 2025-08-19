@@ -95,7 +95,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'srv1':
             return `https://vidify.top/embed/movie/${mediaId}`;
         case 'srv2':
-                return `https://embed.wplay.me/e1/movie/${mediaId} `;
+                return `https://moviesapi.club/movie/${mediaId} `;
         case 'srv3':
             return `https://vidora.su/movie/${mediaId}`;
         case 'srv4':
