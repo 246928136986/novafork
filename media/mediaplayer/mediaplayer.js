@@ -192,7 +192,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             case 'srv1':
                 return `https://vidify.top/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'srv2':
-                return `https://moviesapi.club/tv/${mediaId}/${seasonId}/${episodeId}?autoPlay=true&autoNext=true`;  
+                return `https://moviesapi.club/tv/${mediaId}-${seasonId}-${episodeId}`;  
             case 'vidsrcpro':
                 return `https://vidsrc.pro/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'flicky':
