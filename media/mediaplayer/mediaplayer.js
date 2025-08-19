@@ -92,48 +92,45 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
                 throw error;
             }
 
-        case 'vidsrcxyz':
+        case 'srv1':
             return `https://vidlink.pro/movie/${mediaId}?primaryColor=558931&secondaryColor=558931&iconColor=afd53e&icons=default&player=default&title=true&poster=true&autoplay=true&nextbutton=true`;
-        case 'flicky':
+        case 'srv2':
                 return `https://embed.wplay.me/e1/movie/${mediaId} `;
-        case 'embedsoap':
+        case 'srv3':
             return `https://vidora.su/movie/${mediaId}`;
-        case 'autoembed':
+        case 'srv4':
             return `https://autoembed.cc/embed/mlplayer.php?id=${mediaId}&lang=english`;
-        case 'smashystream':
+        case 'srv5':
             return `https://player.smashy.stream/movie/${mediaId}`;
-        case 'anime':
+        case 'srv6':
             return `https://anime.autoembed.cc/embed/${mediaId}-episode-1`;
-        case '2animesub':
+        case 'srv7':
             return `https://2anime.xyz/embed/${mediaId}-episode-1`;
-        case '2embed':
+        case 'srv8':
             return `https://www.2embed.cc/embed/${mediaId}`;
-        case 'nontonGo':
+        case 'srv9':
             return `https://www.primewire.tf/embed/movie?tmdb=${mediaId}`;
-        case 'AdminHiHi':
-            const movieSlug = mediaId.replace(/\s+/g, '-');
-            return `https://embed.anicdn.top/v/${movieSlug}-dub/1.html`;
-        case 'vidlink':
+        case 'srv10':
             return `https://vidapi.click/embed/movie/${mediaId}`;
-        case 'vidlinkdub':
+        case 'srv11':
             return `https://vidlink.pro/movie/${mediaId}?player=jw&multiLang=true&primaryColor=${primaryColor}&secondaryColor=${secondaryColor}&iconColor=${iconColor}`;
-        case 'vidsrcnl':
+        case 'srv12':
             return `https://play.123embed.net/mv/${mediaId}`;
-        case 'vidsrc.rip':
+        case 'srv13':
             return `https://vidsrc.rip/embed/movie/${mediaId}`;
-        case 'vidbinge':
+        case 'srv14':
             return `https://vidsrc.cc/v2/embed/movie/${mediaId}?autoPlay=true`;
-        case 'moviesapi':
+        case 'srv15':
             return `https://vidify.top/embed/movie/${mediaId}`;
-        case 'moviee':
+        case 'srv16':
             return `https://moviekex.online/embed/movie/${mediaId}`;
-        case 'multiembed':
+        case 'srv17':
             return `https://multiembed.mov/?video_id=${mediaId}&tmdb=1`;
-        case 'embedsu':
+        case 'srv18':
             return `https://vidsrc.su/embed/movie/${mediaId}`;
-        case 'multiembedvip':
+        case 'srv19':
             return `https://multiembed.mov/directstream.php?video_id=${mediaId}&tmdb=1`;
-        case 'vidsrcicu':
+        case 'srv20':
             
             return `https://autoembed.pro/embed/movie/${mediaId}`;
         case 'cinescrape':
