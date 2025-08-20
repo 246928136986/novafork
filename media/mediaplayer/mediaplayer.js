@@ -190,11 +190,11 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
     
         switch (provider) {
             case 'srv1':
-                return `https://vidify.top/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+                return `https://vidjoy.pro/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'srv2':
-                return `https://moviesapi.club/tv/${mediaId}-${seasonId}-${episodeId}`;  
-            case 'vidsrcpro':
-                return `https://vidsrc.pro/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+                return `https://vidrock.net/tv/${mediaId}/${seasonId}/${episodeId}`;  
+            case 'srv3':
+                return `https://vidsrc.cc/v2/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'flicky':
                 return `https://embed.wplay.me/e1/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'flickyanime':
