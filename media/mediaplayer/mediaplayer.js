@@ -93,13 +93,13 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             }
 
         case 'srv1':
-            return `https://vidify.top/embed/movie/${mediaId}`;
+            return `https://vidjoy.pro/embed/movie/${mediaId}`;
         case 'srv2':
-                return `https://autoembed.cc/embed/mlplayer.php?id=${mediaId}&lang=english`;
+                return `https://vidsrc.cc/v2/embed/movie/${mediaId}`;
         case 'srv3':
-            return `https://player.autoembed.cc/embed/movie/${mediaId}`;
+            return `https://111movies.com/movie/${mediaId}`;
         case 'srv4':
-            return `https://autoembed.cc/embed/mlplayer.php?id=${mediaId}&lang=english`;
+            return `https://vidrock.net/movie/${mediaId}`;
         case 'srv5':
             return `https://player.smashy.stream/movie/${mediaId}`;
         case 'srv6':
