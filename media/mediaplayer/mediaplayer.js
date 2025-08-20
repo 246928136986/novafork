@@ -97,7 +97,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'srv2':
                 return `https://vidsrc.cc/v2/embed/movie/${mediaId}`;
         case 'srv3':
-            return `https://111movies.com/movie/${mediaId}`;
+            return `https://vidrock.net/movie/${mediaId}`;
         case 'srv4':
             return `https://vidrock.net/movie/${mediaId}`;
         case 'srv5':
