@@ -99,7 +99,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'srv3':
             return `https://vidsrc.cc/v2/embed/movie/${mediaId}`;
         case 'testsrv':
-            return `https://vidsrc.icu/embed/movie/${mediaId}`;
+            return `https://vidsrc.xyz/embed/movie${mediaId}`;
         case 'srv5':
             return `https://player.smashy.stream/movie/${mediaId}`;
         case 'srv6':
