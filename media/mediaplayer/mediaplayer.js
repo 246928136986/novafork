@@ -95,11 +95,11 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'srv1':
             return `https://vidjoy.pro/embed/movie/${mediaId}`;
         case 'srv2':
-                return `https://vidrock.net/movie/${mediaId}`;
+                return `https://www.2embed.cc/embed/${mediaId}`;
         case 'srv3':
             return `https://vidsrc.cc/v2/embed/movie/${mediaId}`;
         case 'testsrv':
-            return `https://www.2embed.cc/embed/${mediaId}`;
+            return `https://nebulaflix.stream/movie?mt=${mediaId}`;
         case 'srv5':
             return `https://player.smashy.stream/movie/${mediaId}`;
         case 'srv6':
