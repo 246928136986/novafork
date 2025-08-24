@@ -99,7 +99,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'srv3':
             return `https://vidsrc.cc/v2/embed/movie/${mediaId}`;
         case 'testsrv':
-            return `https://nebulaflix.stream/movie?mt=${mediaId}`;
+            return `https://vidsrc.to/embed/movie/${mediaId}`;
         case 'srv5':
             return `https://player.smashy.stream/movie/${mediaId}`;
         case 'srv6':
