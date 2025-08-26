@@ -101,7 +101,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'testsrv':
             return `https://vidsrc.to/embed/movie/${mediaId}`;
         case 'testsrv2':
-            return `https://ythd.org/embed/${mediaId}`;
+            return `https://ythd.org/embed/tt${mediaId}`;
         case 'srv6':
             return `https://anime.autoembed.cc/embed/${mediaId}-episode-1`;
         case 'srv7':
