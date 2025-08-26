@@ -99,7 +99,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'srv3':
             return `https://vidsrc.cc/v2/embed/movie/${mediaId}`;
         case 'testsrv':
-            return `https://vidsrc.to/embed/movie/${mediaId}`;
+            return `https://xprime.tv/watch/${mediaId}`;
         case 'testsrv2':
             return `https://ythd.org/embed/tt${mediaId}`;
         case 'srv6':
