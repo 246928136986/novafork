@@ -101,7 +101,7 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         case 'testsrv':
             return `https://xprime.tv/watch/${mediaId}`;
         case 'testsrv2':
-            return `https://iframe.pstream.mov/media/tmdb-movie-${mediaId}`;
+            return `https://iframe.pstream.mov/media/tmdb-movie-${mediaId}?theme=default&language=en&logo=false&tips=false`;
         case 'srv6':
             return `https://anime.autoembed.cc/embed/${mediaId}-episode-1`;
         case 'srv7':
