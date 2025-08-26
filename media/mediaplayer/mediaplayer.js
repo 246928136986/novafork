@@ -93,10 +93,14 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
             }
 
         case 'srv1':
-            return `https://vidjoy.pro/embed/movie/${mediaId}`;
+            return `https://iframe.pstream.mov/media/tmdb-movie-${mediaId}?theme=default&language=en&logo=false&tips=false`;
         case 'srv2':
-                return `https://www.2embed.cc/embed/${mediaId}`;
+            return `https://xprime.tv/watch/${mediaId}`;
         case 'srv3':
+            return `https://www.2embed.cc/embed/${mediaId}`;
+        case 'srv4':
+            return `https://vidjoy.pro/embed/movie/${mediaId}`;
+        case 'srv5':
             return `https://vidsrc.cc/v2/embed/movie/${mediaId}`;
         case 'testsrv':
             return `https://xprime.tv/watch/${mediaId}`;
