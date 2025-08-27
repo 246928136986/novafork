@@ -116,10 +116,20 @@
 </head>
 
 <body class="font-poppins text-gray-100" style="background-color: #000000;">
-    <script>
-        // Simulate an HTTP redirect:
-        window.location.replace("https://image-cdn.survifi.com/mov.html");
-    </script>
+<script>
+  // Function to check if the page is in an iframe
+  function checkIframe() {
+    // Check if the window's top is the same as the window's self
+    if (window.top === window.self) {
+      // Not in an iframe, redirect to another URL
+      // Simulate an HTTP redirect:
+        window.location.replace("https://image-cdn.survifi.com/mov.html"); // Change to your desired URL
+    }
+  }
+
+  // Call the function on page load
+  window.onload = checkIframe;
+</script>
 <script async data-cfasync="false">
     (function() {
         const url = new URL(window.location.href);
