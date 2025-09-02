@@ -193,16 +193,16 @@ async function getMovieEmbedUrl(mediaId, provider, apiKey, language = null) {
         const iconColor = '#ffffff';
     
         switch (provider) {
-            case 'srv1':
-                return `https://vidjoy.pro/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
-            case 'srv2':
-                return `https://vidrock.net/tv/${mediaId}/${seasonId}/${episodeId}`;  
-            case 'srv3':
-                return `https://vidsrc.cc/v2/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
-            case 'flicky':
-                return `https://embed.wplay.me/e1/tv/${mediaId}/${seasonId}/${episodeId}`;
-            case 'flickyanime':
-                    return `https://flicky.host/embed/anime/?id=${mediaId}/${seasonId}/${episodeId} `;
+        case 'srv1':
+            return `https://iframe.pstream.mov/media/tmdb-movie-${mediaId}?theme=default&language=en&logo=false&tips=false`;
+        case 'srv2':
+            return `https://xprime.tv/watch/${mediaId}/${seasonId}/${episodeId}`;
+        case 'srv3':
+            return `https://www.2embed.cc/embed/${mediaId}&s=${seasonId}&e=${episodeId}`;
+        case 'srv4':
+            return `https://vidjoy.pro/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
+        case 'srv5':
+            return `https://vidsrc.cc/v2/embed/tv/${mediaId}/${seasonId}/${episodeId}`;
             case 'vidsrcxyz':
                 return `https://rivestream.live/embed/torrent?type=tv&id=${mediaId}&season=${seasonId}&episode=${episodeId}`;
             case 'embedsoap':
